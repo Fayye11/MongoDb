@@ -10,6 +10,7 @@ router.get('/', HomeController.home);
 
 router.get('/contato', InfoController.contato);
 router.get('/sobre', InfoController.sobre);
+router.post('/novo-usuario', HomeController.AddUserAction)
 
 router.get('/nome', UserController.nome);
 router.get('/idade', UserController.idadeForm);
